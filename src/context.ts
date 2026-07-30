@@ -1,4 +1,5 @@
 import type { HttpError } from "./http-error.ts";
+import type { ConnInfo } from "./conn-info.ts";
 
 export interface Context {
   /**
@@ -10,6 +11,11 @@ export interface Context {
    * The current HTTP response.
    */
   response: Response;
+
+  /**
+   * The connection the request arrived on, where the runtime exposes one.
+   */
+  readonly connection?: ConnInfo;
 
   /**
    * An error caught by the system.
