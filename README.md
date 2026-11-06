@@ -4,9 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/raptor-js/types/actions"><img src="https://github.com/raptor-js/types/workflows/ci/badge.svg" alt="Build Status"></a>
-  <a href="jsr.io/@raptor/types"><img src="https://jsr.io/badges/@raptor/types" /></a>
-  <a href="jsr.io/@raptor/types score"><img src="https://jsr.io/badges/@raptor/types/score" /></a>
-  <a href="https://jsr.io/@raptor"><img src="https://jsr.io/badges/@raptor" alt="" /></a>
+  <a href="https://www.npmjs.com/package/@raptor-js/types"><img src="https://img.shields.io/npm/v/@raptor-js/types" alt="npm version" /></a>
 </p>
 
 ## Raptor Types

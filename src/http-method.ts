@@ -13,4 +13,4 @@ export const HttpMethod = {
   CONNECT: "CONNECT",
 } as const;
 
-export type HttpMethod = typeof HttpMethod[keyof typeof HttpMethod];
+export type HttpMethod = (typeof HttpMethod)[keyof typeof HttpMethod];

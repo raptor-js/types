@@ -1,0 +1,35 @@
+{
+  "name": "@raptor-js/types",
+  "version": "0.4.0",
+  "description": "Shared types for the Raptor framework.",
+  "license": "MIT",
+  "homepage": "https://raptorjs.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raptor-js/types.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/mod.d.ts",
+      "default": "./dist/mod.js"
+    }
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.test.*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check",
+    "format": "biome check --write",
+    "test": "node --test",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.6",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
